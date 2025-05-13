@@ -13,6 +13,8 @@ class Actor extends Component {
     };
   }
 
+  console.log('123123123')
+
   onCollectionUpdate = (querySnapshot) => {
     const actor = [];
     querySnapshot.forEach((doc) => {
